@@ -1,0 +1,252 @@
+[
+    {
+    "question": "Which service in Microsoft 365 allows for cloud-based team collaboration?",
+    "options": ["Microsoft Exchange Online", "SharePoint Online", "Teams", "OneDrive for Business"],
+    "answers": [2]
+    },
+    
+    {
+    "question": "In Microsoft 365, where can users store personal files and access them from any device?",
+    "options": ["Microsoft Teams", "SharePoint Online", "Outlook", "OneDrive for Business"],
+    "answers": [3]
+    },
+    
+    {
+    "question": "Which of the following is primarily an email service in Microsoft 365?",
+    "options": ["Microsoft Exchange Online", "Teams", "SharePoint Online", "Office"],
+    "answers": [0]
+    },
+    
+    {
+    "question": "Which tool in Microsoft 365 provides a platform for building intranet sites?",
+    "options": ["OneDrive for Business", "PowerPoint", "SharePoint Online", "Teams"],
+    "answers": [2]
+    },
+    
+    {
+    "question": "Which component in Microsoft 365 is primarily focused on Identity Management Solutions?",
+    "options": ["Azure Active Directory", "Teams", "Excel", "Outlook"],
+    "answers": [0]
+    },
+    
+    {
+    "question": "When migrating to Exchange Online, what is the recommended tool by Microsoft?",
+    "options": ["MigrationWiz", "ShareGate", "Office 365 Import Service", "Azure Migrate"],
+    "answers": [2]
+    },
+    
+    {
+    "question": "Which app in Microsoft 365 allows for real-time collaboration on documents?",
+    "options": ["OneDrive", "SharePoint Online", "Outlook", "Teams"],
+    "answers": [3]
+    },
+    
+    {
+    "question": "In Teams, which feature allows you to host large online events?",
+    "options": ["Channels", "Live Events", "Teams Meeting", "Collaboration Space"],
+    "answers": [1]
+    },
+    
+    {
+    "question": "Which of the following is not a feature of SharePoint Online?",
+    "options": ["Team Sites", "Email Hosting", "Content Management", "Document Libraries"],
+    "answers": [1]
+    },
+    
+    {
+    "question": "Which of these apps is not a part of the standard Office suite in Microsoft 365?",
+    "options": ["Word", "Excel", "Teams", "PowerPoint"],
+    "answers": [2]
+    },
+    
+    {
+    "question": "Which of the following is used for multi-factor authentication in Microsoft 365?",
+    "options": ["OneDrive Security", "Azure MFA", "SharePoint Defender", "Teams Shield"],
+    "answers": [1]
+    },
+    
+    {
+    "question": "How can you prevent sharing of sensitive files in OneDrive?",
+    "options": ["Teams Policies", "OneDrive File Policies", "Data Loss Prevention (DLP) policies", "SharePoint Lock"],
+    "answers": [2]
+    },
+    
+    {
+    "question": "Which feature in Microsoft Teams allows for smaller group discussions within a team?",
+    "options": ["Meetings", "Channels", "Tabs", "Breakout Rooms"],
+    "answers": [3]
+    },
+    
+    {
+    "question": "What role would you assign in Azure AD for someone to manage Microsoft 365 services?",
+    "options": ["User", "Guest", "Global Administrator", "Service Administrator"],
+    "answers": [2]
+    },
+    
+    {
+    "question": "Which of the following is a shared space for team collaboration in SharePoint Online?",
+    "options": ["Outlook Groups", "Shared Mailbox", "Distribution Lists", "Team Sites"],
+    "answers": [3]
+    },
+    
+    {
+    "question": "Where can you manage data governance policies for Microsoft 365?",
+    "options": ["SharePoint Admin Center", "Exchange Admin Center", "Security & Compliance Center", "Azure Portal"],
+    "answers": [2]
+    },
+    
+    {
+    "question": "Which feature in Teams can be used to integrate apps and services?",
+    "options": ["Channels", "Tabs", "Calendar", "Tasks"],
+    "answers": [1]
+    },
+    
+    {
+    "question": "What is the purpose of Retention Policies in Microsoft 365?",
+    "options": ["To enforce MFA", "To backup data", "To manage the lifecycle of data", "To encrypt emails"],
+    "answers": [2]
+    },
+    
+    {
+    "question": "What protocol is commonly used to synchronize on-premises directories to Azure AD?",
+    "options": ["SMTP", "REST API", "Azure Sync Protocol", "AD Connect"],
+    "answers": [3]
+    },
+    
+    {
+    "question": "In OneDrive for Business, how can you restore a file to a previous version?",
+    "options": ["Recycle Bin", "Version History", "Backup and Restore", "File Recovery"],
+    "answers": [1]
+    },
+
+    {
+        "question": "Which Microsoft 365 tool helps automate workflows between apps and services?",
+        "options": ["Flow", "Power BI", "Delve", "Yammer"],
+        "answers": [0]
+    },
+    {
+        "question": "What can be used to create interactive reports and dashboards in Microsoft 365?",
+        "options": ["Flow", "Power Automate", "Power BI", "Forms"],
+        "answers": [2]
+    },
+    {
+        "question": "What feature in SharePoint Online can be used to automate business processes?",
+        "options": ["Lists", "Power Automate", "Libraries", "Sites"],
+        "answers": [1]
+    },
+    {
+        "question": "What do you use to manage user identities and access in Microsoft 365?",
+        "options": ["Microsoft 365 Admin Center", "Azure AD", "Intune", "PowerShell"],
+        "answers": [1]
+    },
+    {
+        "question": "Which of the following offers threat protection in the Microsoft 365 suite?",
+        "options": ["Microsoft Defender for Office 365", "Power BI", "Delve", "Planner"],
+        "answers": [0]
+    },
+    {
+        "question": "Which tool in Microsoft 365 can be used for task management within a team?",
+        "options": ["Yammer", "Planner", "Delve", "Flow"],
+        "answers": [1]
+    },
+    {
+        "question": "For compliance, what tool can you use to assess, manage, and reduce risk in Microsoft 365?",
+        "options": ["Compliance Manager", "Power Automate", "Intune", "Azure Information Protection"],
+        "answers": [0]
+    },
+    {
+        "question": "Which feature in Microsoft 365 helps classify and protect sensitive documents and emails?",
+        "options": ["Safe Links", "Secure Score", "Information Rights Management (IRM)", "Audit Logs"],
+        "answers": [2]
+    },
+    {
+        "question": "Which service provides cloud-based device management in Microsoft 365?",
+        "options": ["Intune", "Azure AD", "SharePoint Online", "Yammer"],
+        "answers": [0]
+    },
+    {
+        "question": "To improve security in Microsoft 365, what can be used to monitor and enhance the security posture?",
+        "options": ["Audit Logs", "Azure Information Protection", "Secure Score", "Safe Links"],
+        "answers": [2]
+    },
+    {
+        "question": "Which tool in Microsoft 365 is designed for enterprise social networking?",
+        "options": ["Planner", "Delve", "Yammer", "OneDrive"],
+        "answers": [2]
+    },
+    {
+        "question": "How can an admin enforce encryption of sensitive emails in Exchange Online?",
+        "options": ["Azure Information Protection", "Information Rights Management", "Data Loss Prevention", "Outlook Protect"],
+        "answers": [1]
+    },
+    {
+        "question": "Which Microsoft 365 component helps you manage and monitor security across all Microsoft services?",
+        "options": ["Microsoft Security Center", "Defender for Endpoint", "Compliance Manager", "Safe Attachments"],
+        "answers": [0]
+    },
+    {
+        "question": "Where can you define mail flow rules in Microsoft 365?",
+        "options": ["Azure Portal", "Exchange Admin Center", "Intune", "SharePoint Admin Center"],
+        "answers": [1]
+    },
+    {
+        "question": "Which of the following can be used to control external sharing in SharePoint Online?",
+        "options": ["Sharing Policies", "External Access", "Guest Access", "Open Access"],
+        "answers": [0]
+    },
+    {
+        "question": "What feature allows users to discover and organize content across Microsoft 365?",
+        "options": ["Discover", "Delve", "Search", "Find"],
+        "answers": [1]
+    },
+    {
+        "question": "How can you apply policies to protect content across Microsoft 365?",
+        "options": ["Security Policies", "Data Loss Prevention (DLP) policies", "Protection Policies", "Access Review"],
+        "answers": [1]
+    },
+    {
+        "question": "What provides advanced threat protection for emails in Microsoft 365?",
+        "options": ["Safe Attachments", "Information Rights Management", "Data Governance", "SharePoint Security"],
+        "answers": [0]
+    },
+    {
+        "question": "How can you enable users to sign in to Microsoft 365 using their on-premises credentials?",
+        "options": ["Azure AD Join", "Hybrid Connection", "Single Sign-On", "Remote Authentication"],
+        "answers": [2]
+    },
+    {
+        "question": "What Microsoft 365 service provides cloud-based management of Windows PCs?",
+        "options": ["Endpoint Manager", "Device Manager", "Intune", "Windows Admin Center"],
+        "answers": [2]
+    },
+    {
+        "question": "In Microsoft Teams, what can you use to integrate a third-party service or bot?",
+        "options": ["Tabs", "Channels", "Connectors", "Activities"],
+        "answers": [2]
+    },
+    {
+        "question": "Which of the following can be used to automate repetitive tasks in Microsoft 365?",
+        "options": ["PowerPoint", "Flow", "Excel", "Word"],
+        "answers": [1]
+    },
+    {
+        "question": "What tool allows you to create surveys, quizzes, and polls in Microsoft 365?",
+        "options": ["Excel", "Forms", "Planner", "Power BI"],
+        "answers": [1]
+    },
+    {
+        "question": "How can you provide selective access to a specific file in SharePoint without giving access to the entire site?",
+        "options": ["Guest Links", "Selective Share", "Unique Permissions", "Isolated Access"],
+        "answers": [2]
+    },
+    {
+        "question": "Which service in Microsoft 365 provides insights and intelligence that improve user productivity?",
+        "options": ["Planner", "Power BI", "MyAnalytics", "OneDrive Insights"],
+        "answers": [2]
+    },
+    {
+        "question": "Which tool can you use to bulk update user details in Microsoft 365?",
+        "options": ["Azure AD Connect", "Bulk Edit Tool", "PowerShell", "Exchange Admin Center"],
+        "answers": [2]
+    }
+]
