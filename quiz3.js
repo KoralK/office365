@@ -62,6 +62,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    document.getElementById('jumpToQuestionButton').addEventListener('click', function() {
+        let questionNumber = document.getElementById('jumpToQuestionInput').value;
+        currentQuestionIndex = parseInt(questionNumber) - 1; // subtract 1 because arrays are 0-indexed
+        displayQuizQuestion();
+    });
+    
     function updateScoreReport() {
         let report = document.getElementById('display-score');
         report.textContent = `Total Correct Answers: ${totalCorrect}, Total Wrong Answers: ${totalWrong}, Score: ${score}`;
