@@ -248,5 +248,346 @@
         "question": "Which tool can you use to bulk update user details in Microsoft 365?",
         "options": ["Azure AD Connect", "Bulk Edit Tool", "PowerShell", "Exchange Admin Center"],
         "answers": [2]
+    },
+    {
+        "question": "How can you add more licenses in the Office 365 tenant?",
+        "options": ["Only Premier customers can increase the license count", "By increasing the number of the existing licenses or purchasing new subscriptions", "Contacting Microsoft Support", "Customer can not increase the number of licenses", "None of the above", "You can also place the order using office365 License portal"],
+        "answers": [1, 5]
+    },
+    {
+        "question": "For how many days it is possible to retain files in OneDrive after a user account is marked for deletion box?",
+        "options": ["The minimum value is 30 days and the maximum value is 3650 days", "The minimum value is 93 days and the maximum value is 3250 days", "The minimum value is 60 days and the maximum value is 3650 days", "It is not possible to retain the files", "None of the above"],
+        "answers": [0]
+    },
+    {
+        "question": "What does an organization needs to do in order to obtain unlimited OneDrive storage?",
+        "options": ["Must have licenses: E1 or OneDrive for Business Plan 1 with 5 or more users licensed", "Must have licenses OneDrive for Business Plan 1 with 5 or more users licensed", "It does not require a license", "Must have licenses: E3, E5 or OneDrive for Business Plan 2 with 5 or more users licensed", "None of the above"],
+        "answers": [3]
+    },
+    {
+        "question": "In which situations will Autodiscover be used?",
+        "options": ["Send/Receive emails", "Add new domains", "Create rules", "Connect to mailbox using Outlook", "None of the above"],
+        "answers": [3]
+    },
+    {
+        "question": "Customer has an Office 365 Tenant. Many users in the company have Android devices. Users can view but cannot edit documents in their devices, this problem does not happen on the desktop versions of Office 365 applications. What is the most likely cause of the problem?",
+        "options": ["Office apps on the Android device is corrupted", "Users did not download the app from the Office 365 portal", "User installed the app but has not signed in using the Office 365 credentials", "This should work only in iPhone devices", "None of the above"],
+        "answers": [2]
+    },
+    {
+        "question": "Select the reason(s) why you are not able to Save a Classic Site as template:",
+        "options": ["Publishing features are enable", "It is not possible to Save a Classic SPO site as template", "Custom scripts not allowed at tenant level", "Master page feature not allowed at tenant level"],
+        "answers": [0, 2]
+    },
+    {
+        "question": "How can you personalize time interval of the synchronization cycle done by Azure AD Connect?",
+        "options": ["Set-AdsyncSyncCycle cmdlet", "Changing the Metaverse", "Reinstalling the tool", "Set-ADSyncScheduler cmdlet", "None of the above"],
+        "answers": [3]
+    },
+    {
+        "question": "What DNS records are necessary for Exchange Online operate at its full functionality for mail flow and mailbox connectivity?",
+        "options": ["CNAME Autodiscover, SPF record, MX record", "SIP record, MX record, A record", "AAAA record, A record, SRV record", "MX record, SIP record, SPF record", "None of the above"],
+        "answers": [0]
+    },
+    {
+        "question": "An user from your organization is saying he was supposed to receive an email from an external person (john.doe@contoso.com), but he can't find the message in his mailbox. What would you do, as an Administrator, to find out what happened to the message?",
+        "options": ["Check if Junk Email Configuration is Enabled", "Perform a Mailbox Audit", "Run the Powershell cmdlet Get-AcceptedDomain to check if contoso.com was added.", "Perform a Message Trace", "None of the above"],
+        "answers": [3]
+    },
+    {
+        "question": "A VIP customer has an Office 365 ProPlus installed on her computer. She goes on an extended vacation in a location that does not have Internet access. She reports that Office has switched to limited functionality and requesting activation. How can you resolve this issue without reinstalling Office on the machine?",
+        "options": ["Use the portal to deactivate and then activate the installation", "Use the portal to reassign the user’s license", "No need to take any action", "Instruct the user to locate an internet access point and try activating Office", "None of the above"],
+        "answers": [3]
+    },
+    
+        {
+            "question": "OSUB - A VIP customer has an Office 365 ProPlus installed on her computer. She goes on an extended vacation in a location that does not have Internet access. She reports that Office has switched to limited functionality and requesting activation. How can you resolve this issue without reinstalling Office on the machine? (1 Point)",
+            "options": [
+                "Use the portal to deactivate and then activate the installation",
+                "Use the portal to reassign the user’s license",
+                "No need to take any action",
+                "Instruct the user to locate an internet access point and try activating Office",
+                "None of the above"
+            ],
+            "answers": [3]
+        },
+        {
+            "question": "TMS - You are invited to join a Teams meeting session, but you don't have the Teams app installed in your phone. How can you join the meeting? (1 Point)",
+            "options": [
+                "You can use the Skype client to join the meeting",
+                "You can dial the Toll-free number and join with Conference ID",
+                "You cannot join the meeting, as you must have the app installed",
+                "You can use Microsoft Stream to watch the meeting live",
+                "None of the above"
+            ],
+            "answers": [1]
+        },
+        {
+            "question": "OSUB - You are planning a user-driven deployment of Office 365 ProPlus. What is the minimum Internet access requirements for running Office 365 ProPlus after the initial installation? (1 Point)",
+            "options": [
+                "Every 60 days",
+                "Every 30 days",
+                "Every 15 days",
+                "Internet access is not needed",
+                "None of the above"
+            ],
+            "answers": [1]
+        },
+        {
+            "question": "IDO - A customer is trying to add an Alias for a user. When trying to edit the user in the Office 365 Admin Portal an error is returned: 'This user is synchronized with your local Active Directory. Some details can be edited only through your local Active Directory.' What action plan do you recommend to the customer? (1 Point)",
+            "options": [
+                "Disable Directory Synchronization from Office 365 portal",
+                "Add the Alias for the user in the local Active Directory, and force a synchronization with Azure AD Connect",
+                "This scenario is not supported",
+                "Run the powershell cmdlet Set-MsolUserPrincipalName",
+                "None of the above"
+            ],
+            "answers": [1]
+        },
+        {
+            "question": "TMS - Can a group created in Teams receive emails? (1 Point)",
+            "options": [
+                "No, Teams does not receive emails",
+                "Yes, only internal emails",
+                "Yes, it can receive internal and external emails",
+                "Yes, only external emails"
+            ],
+            "answers": [2]
+        },
+        {
+            "question": "SPO - From how many items a SPO List may run into a list view threshold error? (1 Point)",
+            "options": [
+                "30,000 Items",
+                "5,000 items",
+                "10,000 items",
+                "1,000 items",
+                "None of the above"
+            ],
+            "answers": [1]
+        },
+        {
+            "question": "ODB - Select the correct statement about ODB limitations: (1 Point)",
+            "options": [
+                "Is not possible to sync a folder with more than 10GB",
+                "There is no limit to the number of accounts that can be syncing",
+                "You can add a network or mapped drive as your OneDrive sync location.",
+                "All the options above",
+                "None of the above"
+            ],
+            "answers": [0]
+        },
+        {
+            "question": "ODB - It is possible to sync 'Shared with me' view grouping of files from a OneDrive for Business site? (1 Point)",
+            "options": [
+                "Yes, it is possible",
+                "Yes, but with an external or guest user only",
+                "No, it is not possible",
+                "None of the above"
+            ],
+            "answers": [2]
+        },
+        {
+            "question": "OSUB - Each subscription license allows you to run Office on multiple machines being Mac or PC. How many machines can I activate with one single subscription/license? (1 Point)",
+            "options": [
+                "1",
+                "3",
+                "5",
+                "10",
+                "None of the above"
+            ],
+            "answers": [2]
+        },
+        {
+            "question": "IDO - What is Azure Active Directory? (1 Point)",
+            "options": [
+                "It is a cloud service where we can host virtual machines",
+                "The on-premises Microsoft product where users and objects can be created",
+                "It is the Microsoft cloud identity solution where Office 365 take advantage of it to provision objects and authentication services",
+                "It is a cloud service used to purchase new domains only",
+                "None of the above"
+            ],
+            "answers": [2]
+        },
+        {
+            "question": "EXO - A user within your organization is complaining that every time he receives a message from john.doe@contoso.com, the message arrives in his Junk Mail folder. What can you do to find out the root cause? (1 Point)",
+            "options": [
+                "Analyze the X-Microsoft-Antispam-Message-Info Message Header",
+                "Create an Inbox Rule to move the emails from Junk Email folder to the Inbox folder",
+                "Create a Transport Rule to manually deliver the emails to the Inbox folder",
+                "Analyze the DKIM-Signature Message Header",
+                "None of the above"
+            ],
+            "answers": [0]
+        },
+        {
+            "question": "COM - What are the supported payment methods in the Office 365 Admin Portal for a new US customer? (1 Point)",
+            "options": [
+                "Credit Card, Direct Debit, Bank Account, Invoice (using check or EFT)",
+                "Credit Card, Direct Debit, MoneyGram",
+                "Credit Card, Direct Debit, Invoice (using check or EFT)",
+                "Credit Card or Direct Debit only",
+                "None of the above"
+            ],
+            "answers": [2]
+        },
+        {
+            "question": "ODB - Onedrive for Business can't be configured in which of the following operational systems? (1 Point)",
+            "options": [
+                "Windows Server 2016 RDS",
+                "Windows 7",
+                "Mac OS X 10.12",
+                "iOS 13",
+                "None of the above"
+            ],
+            "answers": [1]
+        },
+        {
+            "question": "OSUB - An admin wants to assign the E3 license to one user, but he did not want the user to install office applications. Which subscription should the admin turn off? (1 Point)",
+            "options": [
+                "Office 365 ProPlus",
+                "Office 365 Business",
+                "Office Online",
+                "Office 365 Standard",
+                "None of the above"
+            ],
+            "answers": [0]
+        },
+        
+    {
+        "question": "EXO - A new employee is hired by your company, and you need to give her a mailbox where she can log in to send and receive emails. How would you achieve this task? (1 Point)",
+        "options": [
+            "Create a new user in Office 365, and running the cmdlet New-Mailbox",
+            "Create a user account in Office 365 for that person, and then assign any license that has an Exchange Online plan",
+            "Create a new user in Office 365, and open a ticket with Microsoft support to enable a new mailbox",
+            "It is not necessary to create a user. You just need to run the cmdlet Enable-Mailbox and a new user and mailbox will be created",
+            "None of the above"
+        ],
+        "answers": [1]
+    },
+    {
+        "question": "COM - How to remove a payment method? (1 Point)",
+        "options": [
+            "You can only delete a payment method that isn't attached to a subscription or billing profile",
+            "You can't remove their payment method",
+            "You can't remove a payment method without contacting the support",
+            "It can be done only using Powershell",
+            "None of the above"
+        ],
+        "answers": [0]
+    },
+    {
+        "question": "SPO - What feature enables users to track old versions of a document or item in a Library? (1 Point)",
+        "options": [
+            "Versioning",
+            "Require Check-in/Check-Out",
+            "Tracking",
+            "Backup",
+            "None of the above"
+        ],
+        "answers": [0]
+    },
+    {
+        "question": "IDO - Which option can be used to add a new domain to your Office 365 tenant? (1 Point)",
+        "options": [
+            "Add a CNAME Autodiscover record",
+            "Add a SRV record to prove ownership",
+            "Add a TXT record in your public DNS zone to confirm ownership",
+            "Add a SPF record to your DNS public zone",
+            "None of the above"
+        ],
+        "answers": [2]
+    },
+    {
+        "question": "IDO - Password synchronization to Office 365 is a feature available in which tool? (1 Point)",
+        "options": [
+            "AAD Connect",
+            "Active Directory Federation Services",
+            "Active Directory Sites and Services",
+            "DNS",
+            "None of the above"
+        ],
+        "answers": [0]
+    },
+    {
+        "question": "COM - Which business subscription does not include the Office Suite applications to install locally in the machine? (1 Point)",
+        "options": [
+            "Business Premium",
+            "Business Essentials",
+            "Enterprise 3 (E3) plan",
+            "Enterprise 5 (E5) plan",
+            "None of the above"
+        ],
+        "answers": [1]
+    },
+    {
+        "question": "TMS - Where Teams users can find meeting records? (1 Point)",
+        "options": [
+            "In the User's mailbox Recordings folder",
+            "C:\\Users\\<username>\\Videos\\Lync Recordings",
+            "Microsoft Stream",
+            "SharePoint site: domain.sharepoint.com/sites/groupoffice365_created_from_Teams",
+            "None of the above"
+        ],
+        "answers": [2]
+    },
+    {
+        "question": "COM - A potential customer would like to try Microsoft 365 for a few days, just to test. Is that possible? (1 Point)",
+        "options": [
+            "Yes, they can purchase a subscription and cancel within the first 30 days and get a full refund",
+            "Yes, they can sign up for a trial of 30 days",
+            "Yes, but they need to contact Microsoft support to submit a request",
+            "Yes, they can submit a trial request on the Azure website",
+            "None of the above"
+        ],
+        "answers": [1]
+    },
+    {
+        "question": "SPO - Is the Recycle Bin storage counting against your site collection storage quota? (1 Point)",
+        "options": [
+            "No. I can delete any amount of items regardless of the site storage, and all the items will remain in the Recycle Bin.",
+            "Yes. The site collection Recycle Bin can exceed its quota and starts purging the oldest items.",
+            "None of the above"
+        ],
+        "answers": [1]
+    },
+    {
+        "question": "TMS - Where are stored one-on-one Teams chats? (1 Point)",
+        "options": [
+            "SharePoint Online",
+            "Microsoft Stream",
+            "OneDrive",
+            "User Mailbox"
+        ],
+        "answers": [3]
+    },
+    {
+        "question": "TMS - Which of the following is not a Teams limitation? (1 Point)",
+        "options": [
+            "Number of teams a user can create",
+            "Number of messages per day a user can send",
+            "Number of teams a user can be a member of",
+            "Number of channels per team"
+        ],
+        "answers": [1]
+    },
+    {
+        "question": "TMS - Which report can you use to analyze and investigate calls and meetings quality issues? (1 Point)",
+        "options": [
+            "Call analytics",
+            "Network Connectivity Report",
+            "Call Quality Dashboard",
+            "Meeting Traffic Report"
+        ],
+        "answers": [2]
+    },
+    {
+        "question": "SEC - How can you force all users to register for Azure AD MFA? (1 Point)",
+        "options": [
+            "Create a security group and assign an MFA policy",
+            "Enable security defaults",
+            "Create a security group and assign an access policy",
+            "Apply a new baseline security policy"
+        ],
+        "answers": [1]
     }
 ]
