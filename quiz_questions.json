@@ -589,5 +589,151 @@
             "Apply a new baseline security policy"
         ],
         "answers": [1]
-    }
-]
+    },
+    {
+        "question": "Do you know what a Grace period is when it comes to O365 products and how long the Grace period lasts?",
+        "options": ["30 days", "60 days", "15 days", "90 days"],
+        "answers": [0]
+    },
+    {
+        "question": "Do you know where we have to navigate on the M365 Admin Center to renew the subscription?",
+        "options": ["Billing section", "Users section", "Setup section", "Reports section"],
+        "answers": [0]
+    },
+    {
+        "question": "What are the different M365 business plans available now?",
+        "options": ["Business Basic, Business Premium", "Enterprise E1, Enterprise E3", "Business Standard, Business Premium", "Apps for Business, Enterprise E5"],
+        "answers": [2]
+    },
+    {
+        "question": "What are the different M365 Enterprise plans available now?",
+        "options": ["Enterprise E1, Enterprise E3, Enterprise E5", "Business Basic, Business Premium", "Enterprise F1, Enterprise E2", "Apps for Business, Business Standard"],
+        "answers": [0]
+    },
+    {
+        "question": "What is the difference between E3 and E5 licenses?",
+        "options": ["E5 has more security features", "E3 is more expensive", "E5 is for small businesses", "E3 and E5 are the same"],
+        "answers": [0]
+    },
+    {
+        "question": "What are the commonly used Microsoft 365 admin center roles?",
+        "options": ["User Admin, Billing Admin", "Global Reader, Setup Admin", "Service Support Admin, User Admin", "Message Center Reader, User Management Admin"],
+        "answers": [0, 2]
+    },
+    {
+        "question": "How do you plan enterprise deployment of Microsoft 365 Apps?",
+        "options": ["Assess current infrastructure, Plan migration, Deploy", "Install apps, Train users, Go live", "Subscribe, Deploy, Review", "Sign up, Install apps, Migrate data"],
+        "answers": [0]
+    },
+    {
+        "question": "What happens to my data and access when my Microsoft 365 for business subscription ends?",
+        "options": ["Data is deleted immediately", "Access is restricted but data remains", "Subscription is auto-renewed", "Access and data remain for 90 days"],
+        "answers": [1]
+    },
+    {
+        "question": "How can you add or remove users in the Microsoft 365 Admin Center?",
+        "options": ["Via the Users section", "Through the Billing section", "Using the Setup section", "Through third-party apps"],
+        "answers": [0]
+    },
+    {
+        "question": "What security measures does Microsoft 365 offer for business data?",
+        "options": ["Data encryption, Multi-factor authentication", "Password protection only", "Firewall protection", "Virus scanning on download only"],
+        "answers": [0]
+    },
+    {
+        "question": "Have you helped organizations improve team collaboration using Microsoft 365 tools?",
+        "options": ["Yes, many times", "A few times", "No, but I'm trained on it", "I'm not familiar with Microsoft 365 tools"],
+        "answers": [0]
+    },
+    {
+        "question": "What are the system requirements for running Microsoft 365 Apps on a computer?",
+        "options": ["Windows 10, 4GB RAM", "Windows 7, 2GB RAM", "Mac OS X, 2GB RAM", "Any OS, 1GB RAM"],
+        "answers": [0]
+    },
+    {
+        "question": "How often are Microsoft 365 products updated, and how can administrators manage these updates?",
+        "options": ["Monthly, Via Update Center", "Annually, Via email notifications", "Daily, Automatically", "Weekly, Through the Admin Center"],
+        "answers": [0]
+    },
+    {
+        "question": "What are the recommended steps for migrating data to Microsoft 365 from another platform?",
+        "options": ["Evaluate data, Use migration tools, Verify", "Backup data, Sign up for M365, Restore", "Upload directly to OneDrive", "Email data to self, Open in M365"],
+        "answers": [0]
+    },
+    {
+        "question": "Which backup solutions integrate best with Microsoft 365?",
+        "options": ["Veeam, Druva", "Google Drive, Dropbox", "Carbonite, AWS", "Local HDD, External SSD"],
+        "answers": [0]
+    },
+    {
+        "question": "How does Microsoft 365 differ from Office 2019?",
+        "options": ["M365 is cloud-based, Office 2019 is not", "No difference, both are the same", "Office 2019 has more features", "M365 is older than Office 2019"],
+        "answers": [0]
+    },
+    {
+        "question": "Where can one find training resources for Microsoft 365?",
+        "options": ["Microsoft's official website", "In the M365 Admin Center", "On third-party websites", "By asking friends and colleagues"],
+        "answers": [0]
+    },
+    {
+        "question": "How does OneDrive integrate with Microsoft 365, and what are its primary features?",
+        "options": ["Cloud storage, File sharing", "Only for backup purposes", "Text editing, No storage", "Data analysis, Graph plotting"],
+        "answers": [0]
+    },
+    {
+        "question": "How do you set up multi-factor authentication for Microsoft 365?",
+        "options": ["Via the Security & Compliance Center", "Through the main settings page", "In the Azure AD settings", "By contacting Microsoft support"],
+        "answers": [2]
+    },
+        {
+            "question": "Which feature in Microsoft 365 allows for automated workflow creation?",
+            "options": ["Microsoft Lists", "Microsoft Flow", "Power Automate", "Power Apps"],
+            "answers": [2]
+        },
+        {
+            "question": "Which of the following services is NOT a part of Microsoft 365?",
+            "options": ["Microsoft Teams", "OneDrive", "Azure DevOps", "Outlook"],
+            "answers": [2]
+        },
+        {
+            "question": "Which tool in Microsoft 365 is primarily used for data visualization?",
+            "options": ["PowerPoint", "Power BI", "Excel", "Word"],
+            "answers": [1]
+        },
+        {
+            "question": "Which Microsoft 365 service offers a hub for teamwork in Office 365?",
+            "options": ["Skype for Business", "Yammer", "Microsoft Teams", "Outlook Groups"],
+            "answers": [2]
+        },
+        {
+            "question": "What is the purpose of Microsoft Compliance Center in M365?",
+            "options": ["Manage team chats", "Ensure data compliance and protection", "Manage subscriptions and billing", "Develop applications"],
+            "answers": [1]
+        },
+        {
+            "question": "Which Microsoft 365 app provides a cloud-based service for building custom apps without extensive developer knowledge?",
+            "options": ["Power BI", "Power Query", "Power Platform", "Power Apps"],
+            "answers": [3]
+        },
+        {
+            "question": "Which of the following is a collaborative workspace application in Microsoft 365?",
+            "options": ["Microsoft Lists", "Whiteboard", "Sway", "Stream"],
+            "answers": [1]
+        },
+        {
+            "question": "How can you safeguard your organization's data in Microsoft 365?",
+            "options": ["Using Microsoft Defender", "By enabling archive mailboxes", "Through Microsoft Information Protection", "By using external backup solutions only"],
+            "answers": [2]
+        },
+        {
+            "question": "Which feature in Microsoft 365 helps automate and streamline business processes using apps and services?",
+            "options": ["Power Query", "Power Platform", "Power Automate", "Power Pivots"],
+            "answers": [2]
+        },
+        {
+            "question": "What is the maximum number of members you can add to a Microsoft Team as of January 2022?",
+            "options": ["5,000", "10,000", "25,000", "50,000"],
+            "answers": [2]
+        }
+    ]
+    
