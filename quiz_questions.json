@@ -177,7 +177,7 @@
     {
         "question": "How can an admin enforce encryption of sensitive emails in Exchange Online?",
         "options": ["Azure Information Protection", "Information Rights Management", "Data Loss Prevention", "Outlook Protect"],
-        "answers": [1]
+        "answers": [0]
     },
     {
         "question": "Which Microsoft 365 component helps you manage and monitor security across all Microsoft services?",
