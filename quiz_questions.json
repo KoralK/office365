@@ -294,13 +294,8 @@
         "options": ["Check if Junk Email Configuration is Enabled", "Perform a Mailbox Audit", "Run the Powershell cmdlet Get-AcceptedDomain to check if contoso.com was added.", "Perform a Message Trace", "None of the above"],
         "answers": [3]
     },
-    {
-        "question": "A VIP customer has an Office 365 ProPlus installed on her computer. She goes on an extended vacation in a location that does not have Internet access. She reports that Office has switched to limited functionality and requesting activation. How can you resolve this issue without reinstalling Office on the machine?",
-        "options": ["Use the portal to deactivate and then activate the installation", "Use the portal to reassign the user’s license", "No need to take any action", "Instruct the user to locate an internet access point and try activating Office", "None of the above"],
-        "answers": [3]
-    },
     
-        {
+    {
             "question": "OSUB - A VIP customer has an Office 365 ProPlus installed on her computer. She goes on an extended vacation in a location that does not have Internet access. She reports that Office has switched to limited functionality and requesting activation. How can you resolve this issue without reinstalling Office on the machine? (1 Point)",
             "options": [
                 "Use the portal to deactivate and then activate the installation",
@@ -310,8 +305,8 @@
                 "None of the above"
             ],
             "answers": [3]
-        },
-        {
+    },
+    {
             "question": "TMS - You are invited to join a Teams meeting session, but you don't have the Teams app installed in your phone. How can you join the meeting? (1 Point)",
             "options": [
                 "You can use the Skype client to join the meeting",
