@@ -379,7 +379,7 @@
                 "No, it is not possible",
                 "None of the above"
             ],
-            "answers": [2]
+            "answers": [0]
         },
         {
             "question": "OSUB - Each subscription license allows you to run Office on multiple machines being Mac or PC. How many machines can I activate with one single subscription/license? (1 Point)",
