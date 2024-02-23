@@ -382,16 +382,16 @@
             "answers": [0]
         },
         {
-            "question": "OSUB - Each subscription license allows you to run Office on multiple machines being Mac or PC. How many machines can I activate with one single subscription/license? (1 Point)",
+            "question": "OSUB - With a single Microsoft 365 Personal subscription license, how many devices in total can a user activate and use Office apps on?",
             "options": [
-                "1",
-                "3",
-                "5",
-                "10",
-                "None of the above"
+              "5 devices in total",
+              "5 PCs/Macs + 5 tablets + 5 mobile devices (15 in total)",
+              "10 devices in total",
+              "Unlimited devices",
+              "None of the above"
             ],
-            "answers": [2]
-        },
+            "answers": [1]
+          },          
         {
             "question": "IDO - What is Azure Active Directory? (1 Point)",
             "options": [
